@@ -1,10 +1,11 @@
 import "./App.css";
-import LoginForm from "./components/LoginForm";
+import { ModalForm } from "./components/ModalForm";
 
 function App() {
   return (
     <div className="App">
-      <LoginForm />
+      {/* <AutofillForm /> */}
+      <ModalForm />
     </div>
   );
 }
